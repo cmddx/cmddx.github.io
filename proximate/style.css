@@ -12,7 +12,6 @@ body {
     margin: 0;
     padding: 0;
     -webkit-overflow-scrolling: touch;
-
     height: 100%;
     width: 100%;
     top: 5em;
@@ -31,6 +30,35 @@ body {
     max-width: 80vw !important;
     transition: opacity 2s ease;
     padding: 0em 1em 0em 1em;
+}
+
+.header {
+    background: url("images/libraryhero.png");
+    background-size: 960px;
+    image-rendering: pixelated;
+    height: 120px;
+    margin-bottom: 2em;
+}
+
+.factsheet{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox > a {
+    max-width: 50%;
+}
+
+.flexbox > a > img {
+    image-rendering: auto;
 }
 
 /* ================================================================= */
@@ -64,13 +92,45 @@ img {
 
 h1 {
     font-family: "Copystruct";
-    margin-bottom: 2em;
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.05em;
+    color: #ef420a;
+    text-shadow:
+        3px 3px 0 #000,
+        -3px 3px 0 #000,
+        -3px -3px 0 #000,
+        3px -3px 0 #000;
+}
+
+h2 {
+    font-family: "Copystruct";
     display: block;
     margin-left: auto;
     margin-right: auto;
+    letter-spacing: 0.05em;
+    color: #ef420a;
+    font-size: 1.2em;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 315px;
+}
+
+a {
+    color: #cfde0f;
 }
 
 @font-face {
-    font-family: 'Copystruct'; /*a name to be used later*/
-    src: url('fonts/copy.ttf'); /*URL to font*/
+    font-family: 'Copystruct';
+    /*a name to be used later*/
+    src: url('fonts/copy.ttf');
+    /*URL to font*/
 }
