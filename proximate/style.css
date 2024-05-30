@@ -40,7 +40,7 @@ body {
     margin-bottom: 2em;
 }
 
-.factsheet{
+.factsheet {
     text-align: center;
     display: block;
     margin-left: auto;
@@ -53,11 +53,11 @@ body {
     flex-wrap: wrap;
 }
 
-.flexbox > a {
+.flexbox>a {
     max-width: 50%;
 }
 
-.flexbox > a > img {
+.flexbox>a>img {
     image-rendering: auto;
 }
 
@@ -78,7 +78,9 @@ p>* {
 }
 
 br {
-    margin-bottom: 0.5em;
+    display: block;
+    margin-bottom: 0.6em;
+    content: " ";
 }
 
 img {
